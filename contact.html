@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Kindness Task Force</title>
+    <meta name="description" content="Get in touch with Kindness Task Force! We'd love to hear from you. Whether you have questions, want to volunteer, or are interested in collaborating, feel free to reach out.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles (same as in index.html) */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        /* ... (rest of the general styles) */
+
+        /* Contact Us Page Specific Styles */
+        .contact {
+            padding: 80px 20px;
+            background-color: #fff;
+        }
+
+        .contact h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #087ea4;
+            text-align: center;
+        }
+
+        .contact-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .contact-content p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .contact-form {
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: 30px auto;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .info-card {
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .info-card i {
+            font-size: 2rem;
+            color: #087ea4;
+            margin-bottom: 15px;
+        }
+
+        .info-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .info-card p {
+            font-size: 1rem;
+            line-height: 1.4;
+            color: #555;
+        }
+
+        .map-container {
+            margin-top: 30px;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 400px;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="Kindness Task Force Logo">
+                <h1><a href="index.html">Kindness Task Force</a></h1>
+            </div>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="contact.html" aria-current="page">Contact Us</a></li>
+                <li><a href="index.html#donate">Donate</a></li>
+                <li><a href="https://surveyheart.com/form/6612d72c8b3a5b06fb880d54" target="_blank" rel="noopener">Volunteer</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/kindness.outreach.campaign" target="_blank" aria-label="Follow us on Instagram" rel="noopener"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:kindnesstaskforce@gmail.com" aria-label="Contact us via Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://wa.me/923358224440" target="_blank" aria-label="Contact us on WhatsApp" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </nav>
+
+        <main>
+            <section class="contact">
+                <h2>Contact Us</h2>
+                <div class="contact-content">
+                    <p>We'd love to hear from you! Whether you have questions, feedback, or are interested in getting involved, please don't hesitate to reach out.</p>
+                    <p>You can contact us using the form below, or through any of our social media channels.</p>
+                </div>
+
+                <form class="contact-form" action="https://formspree.io/f/meoeynpk" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+
+                <div class="contact-info">
+                    <div class="info-card">
+                        <a href="mailto:kindnesstaskforce@gmail.com" aria-label="Contact us via Email">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p>kindnesstaskforce@gmail.com</p>
+                        </a>
+                    </div>
+                    <div class="info-card">
+                        <a href="https://wa.me/923358224440" target="_blank" aria-label="Contact us on WhatsApp" rel="noopener">
+                            <i class="fab fa-whatsapp"></i>
+                            <h3>WhatsApp</h3>
+                            <p>+92 335 8224440</p>
+                        </a>
+                    </div>
+                    <div class="info-card">
+                        <a href="https://www.instagram.com/kindness.outreach.campaign" target="_blank" aria-label="Follow us on Instagram" rel="noopener">
+                            <i class="fab fa-instagram"></i>
+                            <h3>Instagram</h3>
+                            <p>@kindness.outreach.campaign</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.254656777752!2d73.0638238755551!3d33.60695134347534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbea72ac27e3f%3A0x44e5829535353535!2sBahria%20Town%2C%20Rawalpindi%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1701784432711!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2023 Kindness Task Force. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
